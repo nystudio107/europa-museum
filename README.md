@@ -2,7 +2,7 @@
 
 This is conversion of the Craft CMS marketing demo site [Europa Museum](https://craftcms.com/demo) to a Docker-ized setup that uses [Vite.js](https://vitejs.dev/) modern frontend tooling.
 
-[![Click to Play Video](https://img.youtube.com/vi/ICDwX5_QRjo/0.jpg)](https://www.youtube.com/watch?v=ICDwX5_QRjo)
+[![Click to Play Video](https://img.youtube.com/vi/JYj-RASTlNM/0.jpg)](https://www.youtube.com/watch?v=JYj-RASTlNM)
 
 (Click to Play Video)
 
