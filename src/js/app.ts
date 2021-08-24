@@ -1,6 +1,9 @@
 import App from '@/vue/App.vue';
 import { createApp } from 'vue';
 
+import '../css/site.scss';
+import './site.js';
+
 // App main
 const main = async () => {
     // Create our vue instance
