@@ -1,6 +1,6 @@
 // Plugins
 import Highway from '@dogstudio/highway/build/highway';
-// @TODO circular import error with H here
+// circular import error with H here
 //import { H } from '../../../site';
 import LocomotiveScroll from 'locomotive-scroll';
 
@@ -19,9 +19,7 @@ import BlocksController from '../../../blocks/blocks-controller';
 
 class DefaultRenderer extends Highway.Renderer {
     onEnter() {
-        // @TODO circular import error with H here
-        //const pageTemplate = H.location.pathname.split('/')[1];
-        const pageTemplate = 'home';
+        const pageTemplate = window.HighwayApp.location.pathname.split('/')[1];
         const pageName = pageTemplate.length > 1 ? pageTemplate : 'home';
         store.body.dataset.page = pageName;
         const selectedLink = store.body.querySelector('[data-link="' + pageName + '"]');

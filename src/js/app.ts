@@ -2,7 +2,13 @@ import App from '@/vue/App.vue';
 import { createApp } from 'vue';
 
 import '../css/site.scss';
-import './site.js';
+import { H } from './site.js';
+
+declare global {
+    interface Window { HighwayApp: any; }
+}
+
+window.HighwayApp = H;
 
 // App main
 const main = async () => {

@@ -2,6 +2,7 @@ import vue from '@vitejs/plugin-vue'
 import legacy from '@vitejs/plugin-legacy'
 import ViteRestart from 'vite-plugin-restart';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
+import copy from 'rollup-plugin-copy';
 import critical from 'rollup-plugin-critical';
 import path from 'path';
 
@@ -22,6 +23,10 @@ export default ({ command }) => ({
     }
   },
   plugins: [
+    copy({
+      targets: [ { src: 'src/fonts/**/*', dest: '../cms/web/dist/fonts' } ],
+      hook: 'writeBundle'
+    }),
     critical({
       criticalUrl: 'http://nginx',
       criticalBase: '../cms/web/dist/criticalcss/',

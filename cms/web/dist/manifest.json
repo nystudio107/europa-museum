@@ -1,6 +1,6 @@
 {
   "src/js/app-legacy.ts": {
-    "file": "assets/app-legacy.c1ad37f3.js",
+    "file": "assets/app-legacy.9c87a076.js",
     "src": "src/js/app-legacy.ts",
     "isEntry": true,
     "imports": [
@@ -27,7 +27,7 @@
     "isEntry": true
   },
   "src/js/app.ts": {
-    "file": "assets/app.bcafd961.js",
+    "file": "assets/app.32c2974e.js",
     "src": "src/js/app.ts",
     "isEntry": true,
     "imports": [

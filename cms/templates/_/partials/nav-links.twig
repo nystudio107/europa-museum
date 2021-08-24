@@ -4,7 +4,7 @@
 
     {% for link in navigation.linksRight.all() %}
 
-        <a href="{{ link.url }}" {% if link.url == url('contact') %}data-router-disabled{% endif %}>{{ link.title }}</a>
+        <a data-link="{{ link.title | lower }}" href="{{ link.url }}" {% if link.url == url('contact') %}data-router-disabled{% endif %}>{{ link.title }}</a>
 
     {% endfor %}
 
