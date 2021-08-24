@@ -1,4 +1,4 @@
-dateModified: 1629770729
+dateModified: 1629776627
 email:
   fromEmail: support@craftcms.com
   fromName: 'Europa Museum'
@@ -192,10 +192,6 @@ plugins:
     licenseKey: K03H5FZDDC10P9SPFH42ZAKV
     schemaVersion: 3.0.0
   minify:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  mix:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

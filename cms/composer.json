@@ -24,7 +24,6 @@
         "craftcms/cms": "^3.7",
         "craftcms/redactor": "^2.5.0",
         "fakerphp/faker": "^1.14",
-        "misterbk/mix": "^1.5.2",
         "nystudio107/craft-autocomplete": "^1.0.0",
         "nystudio107/craft-minify": "^1.2.9",
         "nystudio107/craft-seomatic": "^3.3.44",
