@@ -6,6 +6,8 @@ This is conversion of the Craft CMS marketing demo site [Europa Museum](https://
 
 (Click to Play Video)
 
+Here is the same [project using Vite](https://github.com/nystudio107/europa-museum/tree/docker-vite)
+
 Related articles & podcasts:
 
 * [An Annotated webpack 4 Config for Frontend Web Development](https://nystudio107.com/blog/an-annotated-webpack-4-config-for-frontend-web-development) article
@@ -23,7 +25,7 @@ Ensure no other local development environments are running that might have port 
 
 1. Clone the git repo with:
 ```
-git clone https://github.com/nystudio107/europa-museum.git
+git clone -b docker-webpack https://github.com/nystudio107/europa-museum.git
 ```
   
 2. Go into the project's directory:
