@@ -6,6 +6,8 @@ This is conversion of the Craft CMS marketing demo site [Europa Museum](https://
 
 (Click to Play Video)
 
+Here is the same [project using webpack](https://github.com/nystudio107/europa-museum/tree/docker-webpack)
+
 Related articles & podcasts:
 
 * [Vite.js Next Generation Frontend Tooling + Craft CMS](https://nystudio107.com/blog/using-vite-js-next-generation-frontend-tooling-with-craft-cms) article
