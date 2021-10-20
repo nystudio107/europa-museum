@@ -2,6 +2,15 @@ FROM nystudio107/node-dev-base:14-alpine
 
 WORKDIR /var/www/project/buildchain/
 
+# Install packages
+RUN set -eux; \
+    # Packages to install
+    apk add --no-cache \
+        git \
+    && \
+    # Clean out directories that don't need to be part of the image
+    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
 # Run our webpack build in debug mode
 
 # We'd normally use `npm ci` here, but by using `install`:
