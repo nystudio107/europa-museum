@@ -63,7 +63,7 @@
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-critical": "^1.0.4",
     "sass": "^1.38.1",
-    "vite": "^2.3.2",
+    "vite": "^2.6.0",
     "vite-plugin-restart": "0.0.2"
   },
   "homepage": "https://github.com/nystudio107/europa-museum",
