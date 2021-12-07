@@ -1,4 +1,4 @@
-dateModified: 1634687986
+dateModified: 1638853550
 email:
   fromEmail: support@craftcms.com
   fromName: 'Europa Museum'
@@ -127,7 +127,7 @@ plugins:
     edition: lite
     enabled: true
     licenseKey: 12RUVCIJKE1OYMTORHHE9C0O
-    schemaVersion: 3.3.2
+    schemaVersion: 3.5.1
     settings:
       ajaxByDefault: '1'
       autoScrollToErrors: ''
