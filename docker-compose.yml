@@ -62,9 +62,9 @@ services:
       POSTGRES_DB: project
       POSTGRES_USER: project
       POSTGRES_PASSWORD: project
+    expose:
+      - "5432"
     init: true
-    ports:
-      - "5432:5432"
     volumes:
       - db-data:/usr/local/pgsql/data
       - ./db-seed/:/docker-entrypoint-initdb.d
