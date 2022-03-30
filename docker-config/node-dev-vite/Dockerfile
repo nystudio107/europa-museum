@@ -14,6 +14,8 @@ RUN set -eux; \
     # Clean out directories that don't need to be part of the image
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+WORKDIR /var/www/project/buildchain
+
 # Run our webpack build in debug mode
 
 # We'd normally use `npm ci` here, but by using `install`:
@@ -23,8 +25,8 @@ RUN set -eux; \
 # This automatic running adds to the startup overhead of `docker-compose up`
 # but saves far more time in not having to deal with out of sync versions
 # when working with teams or multiple environments
-CMD ./npm_install.sh \
+CMD export CPPFLAGS="-DPNG_ARM_NEON_OPT=0" \
     && \
-    cd /var/www/project/buildchain/ \
+    /var/www/project/npm_install.sh \
     && \
     npm run dev
