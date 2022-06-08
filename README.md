@@ -30,7 +30,7 @@ Ensure no other local development environments are running that might have port 
 ```
 git clone -b docker-vite https://github.com/nystudio107/europa-museum.git
 ```
-  
+
 2. Go into the project's directory:
 ```
    cd europa-museum
@@ -70,7 +70,7 @@ php_1         | [01-Dec-2020 18:38:46] NOTICE: ready to handle connections
 ```
 vite_1        |   > Local:    http://localhost:3000/
 vite_1        |   > Network:  http://172.28.0.3:3000/
-vite_1        | 
+vite_1        |
 vite_1        |   ready in 10729ms.
 ```
 
@@ -78,8 +78,8 @@ All of the Twig files, JavaScript, Vue components, CSS, and even the Vite config
 
 A password-scrubbed seed database will automatically be installed; you can log into the CP at `http://localhost:8000/admin` via these credentials:
 
-**User:** `admin` \
-**Password:** `password`
+**User:** `andrew@nystudio107.com` \
+**Password:** `letmein`
 
 ### Makefile Project Commands
 
